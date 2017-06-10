@@ -106,8 +106,68 @@ var r=2;
 console.log(Math.PI * Math.pow(r,2)); /*obliczenia pola koła*/
 //*******************************************************************
 
+/*wyswietlanie okienka  */
 
-alert( 'uwazaj');
+//alert( 'uwazaj');   *wyswietli sie okno z napsiel 'uwaga'*/
+
+//********************************************************************
+
+
+/* if - warunki w praktyce*/
+
+var wzrostOli = 178;
+var wzrostMateusza = 178;
+
+if (wzrostMateusza > wzrostOli){  /*sprawdz warunek czy*/
+    console.log('Mateusz jest wyzszy');
+
+}
+else                               /*jesli warunek nie spełniony*/
+    {
+        console.log('ola jest wyzsza')
+    }
+
+//******************************************************************
+
+/*else if warunek na wiecej nie 2 opcje rozwiazan warunku */
+
+if (wzrostMateusza > wzrostOli){  /*sprawdz warunek czy*/
+    console.log('Mateusz jest wyzszy');
+
+}
+else if (wzrostMateusza == wzrostOli) /*kolejny warunek jesli pierwszy nie spełniony */                            
+    {
+        console.log('Są równi')
+    }
+
+else /*jesli zaden warunek nie spełniony*/
+    {
+        console.log('ola jest wyzsza')
+    }
+//******************************************************************
+
+/* uzycie warunku SWITCH    */
+
+var color = 'zielony';
+
+switch (color){
+    case 'czerwony':   /*jesli kolor czerwony*/
+         console.log('kolor czerwony'); /*wyslwiel */
+        break;
+    case 'niebieski':
+        console.log('kolor niebieski');
+        break;
+    case  'zielony':
+        console.log('kolor zielony');
+        break;
+        
+    default:  /* jesli nie wyminony w case-ach to zrob*/
+        console.log('inny kolor');
+        
+             }
+//*****************************************************************
+
+
 
 
 
