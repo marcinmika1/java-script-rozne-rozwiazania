@@ -205,5 +205,35 @@ do{
 } while (iter < 10 );
 //***************************************************************
 
+//i++ postinkrementacja i ++i preinkrementacja dadaj po i dodaj przed wyswietleniem 
+
+for ( var iteracja=1; iteracja<4; ){
+    console.log(++iteracja);
+}
+
+for ( var iteracja=1; iteracja<4; ){
+    console.log(iteracja++);
+}
+//***************************************************************8
+/*uzycie continue by ominąć */
+for (var b=0; b<6; ++b){
+    if(b == 3){     /* warunek pominiecia */
+        continue; /* kontynuuj dalej bez zmian */
+    }
+    else {
+        b=b*0.5;
+        console.log(b);
+    }
+    
+    console.log('--');
+}
+//*****************************************************************
+
+
+
+
+
+
+
 
 
