@@ -159,7 +159,7 @@ switch (color){
         break;
     case  'zielony':
         console.log('kolor zielony');
-        break;
+        break; /* bez break-a wykoswietli się co w case mimo ze nie spelnai warunku*/
         
     default:  /* jesli nie wyminony w case-ach to zrob*/
         console.log('inny kolor');
@@ -167,14 +167,43 @@ switch (color){
              }
 //*****************************************************************
 
+/* pętla for */
 
+//for (i= ; warunek kiedy ma sie skonczyc; zwiekszaj i o )
+for (var i=0; i<4; i++){
+    console.log(i);
+}
+//***************************************************************
 
+/*petla while */
 
+var i=0;
 
+while(i<10){
+    console.log(i);
+    i++;
+}
+//**************************************************************
 
+/*petla do while*/
 
-
-
+var iter = 2;
+do{
+    console.log(iter);
+    iter++;
+} while (iter < 10 );
+//*****************************************************************
+/*break w petli while*/
+var iter = 2;
+do{
+    console.log(iter);
+    iter++;
+    
+    if (iter==5){   /*break do wychodzenaia z petli */
+        break;
+    }
+} while (iter < 10 );
+//***************************************************************
 
 
 
