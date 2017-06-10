@@ -78,6 +78,21 @@ var wiekStudentow = [20, 25, 30];
 
 //*******************************************************************
 
+/*obiekty jako zmienne*/
+
+var student = {
+    imie: "Marcin",
+    wzrost: 152,
+    wyswietlDane: function() {console.log(this.imie)}
+}
+/*tworzenie obiektu jest jak budowanie tablicy tylko indeksem staje sie nazwa np imie, wzrost... odwolujemy sie do nich np student.wzrost mozna wstawiac tez funkcjie */
+
+student.wyswietlDane();
+/*wywołanie funkcji */
+console.log(student);
+
+//*****************************************************************
+
 
 
 
