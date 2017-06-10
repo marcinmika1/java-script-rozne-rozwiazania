@@ -272,4 +272,24 @@ function nazwaFunkcji(){
     console.log('coś');
 }
 console.log(nazwaFunkcji());
-//*********************************************************************
+//*****************************************************************
+/* rzykladowe uzycie funkcji */
+var krzysiek = 3500;
+var janek = 4000;
+var jurek = 2000;
+var maciek = 3700;
+
+var sumaKasy;
+
+function policzSumaKasy(skladowa1, skladowa2, skladowa3, skladowa4){
+    
+    var sumaKasy;
+    sumaKasy = skladowa1 + skladowa2 + skladowa3 + skladowa4;
+    
+    return sumaKasy;
+}
+
+sumaKasy = policzSumaKasy(krzysiek, janek, jurek, maciek);
+
+console.log(sumaKasy);
+//****************************************************************
