@@ -93,8 +93,18 @@ console.log(student);
 
 //*****************************************************************
 
+/*objekty stałe matematyczne np Pi,*/
 
+console.log(Math.PI);
+/*wyswietle liczbę PI*/
+console.log(Math.cos(0));
+/*wyswietl cosinusa 0*/
+/*w wyszukiwarece java script math objects*/
 
+var r=2
+
+console.log(Math.PI * Math.pow(r,2));
+//*******************************************************************
 
 
 
