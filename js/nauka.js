@@ -320,9 +320,42 @@ var imiona2 = ['jola','wiola'];
 var wszystkieImiona = imiona.concat(imiona2);
 
 console.log(wszystkieImiona);
+//**********************************************
+/*zastosowanie obiektow*/
+
+var marcin = {
+    name: 'Marcin',
+    height: 184,
+    print: function () {console.log (this.name); }
+}
+
+var krystian = {
+    name: 'krysian',
+    height: 176,
+    print: function(){ console.log(this.name); }
+}
+console.log(marcin.print());
+console.log(marcin.height);
+console.log(krystian);
+console.log(krystian.print());
+//8****************************************8
+/*dodawanei klasy */
+    /*zawsze nazwaFunkcji z !!dużej litery!! */
+function nazwaFunkcji1(imie,nazwisko){ 
+    this.imie= imie;
+    this.nazwisko= nazwisko;
+    this.wyswietlInfo = function(){console.log(this.imie);}
+}
+/*mozna powiedziec ze tworzymu funkcji tworzenia nowego obietku w klasie*/
+
+//dodawanie nowego obietku w klasie 
+
+var marek = new nazwaFunkcji1 ('marek', 'nowak');
 
 
-
+console.log(nazwaFunkcji1);
+***********************************************
+/*JSON*/
 
 
 
