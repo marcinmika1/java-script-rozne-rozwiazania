@@ -244,8 +244,32 @@ if (2>5){
 else{
     console.log('nie');
 }
+//*******************************************************************
+/*funkcje*/
+function multiply(parametr1,parametr2,parametr3){
+    
+    var result;
+    
+    result = parametr1 * parametr2 * parametr3;
+    
+    return result;
+}
+/*zrobiona funkcja mnozenia */
+var wynik1 = multiply(1,4,5);
 
+var wynik2 = multiply(wynik1,7,10);
 
+console.log(wynik1);
+console.log(wynik2);
+//*****************************************************************
+/*wywołanie funcji */
 
-
-
+console.log(multiply);  /*wyswietli jakie dzialania zawiera tresc funkcji */
+console.log(multiply(3,2,1)); /* wyswietli wynik funkcji */
+//****************************************************************
+/* tworzenie funkcji */
+function nazwaFunkcji(){
+    console.log('coś');
+}
+console.log(nazwaFunkcji());
+//*********************************************************************
