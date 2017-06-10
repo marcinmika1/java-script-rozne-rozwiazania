@@ -101,13 +101,13 @@ console.log(Math.cos(0));
 /*wyswietl cosinusa 0*/
 /*w wyszukiwarece java script math objects*/
 
-var r=2
+var r=2;
 
-console.log(Math.PI * Math.pow(r,2));
+console.log(Math.PI * Math.pow(r,2)); /*obliczenia pola koła*/
 //*******************************************************************
 
 
-
+alert( 'uwazaj');
 
 
 
