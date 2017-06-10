@@ -221,17 +221,29 @@ for (var b=0; b<6; ++b){
         continue; /* kontynuuj dalej bez zmian */
     }
     else {
-        b=b*0.5;
         console.log(b);
     }
     
     console.log('--');
 }
 //*****************************************************************
+/*operatory*/
 
+//% dzielenie modulo /*wyswietla reszte np 7%2 = 1 */
+/* x+=1 - dodawanie np x=x+1 */
+/*x-=1 -II- */
+/* == rowne != rozne === czy rowne i cze ten sam typ danych czy string  czy liczba   !== czy nie sa rowne i type danych nie rowne   */
+/* && AND  ||  OR  ! NOT (np for (!x>3)//nie jest wieksze od 3) */
+//******************************************************************
+/*skrócony zapisa dla if */
+(2>5) ? console.log('tak') : console.log('nie');
 
-
-
+if (2>5){
+    console.log('tak');
+}
+else{
+    console.log('nie');
+}
 
 
 
