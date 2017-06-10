@@ -16,11 +16,11 @@ console.log(calkowitaWyplata);
 
 var wyplataStr = "5000";
 var premiaStr = "2000";
-var wyplata = wyplataStr + "\n" + premiaStr;
+var calaWyplata = wyplataStr + "\n \" dodajemy\" \n " + premiaStr;
 
 /*wyswietlenie wyniku */
 
-console.log(wyplata);
+console.log(calaWyplata);
 
 //*************************************************************
 
