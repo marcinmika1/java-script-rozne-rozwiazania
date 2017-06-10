@@ -55,6 +55,29 @@ else
 //*******************************************************************
 
 
+/* wyskozystywanie tablic */
+
+
+var imiona = new Array();
+/*tworzenie tablicy pustej*/
+var imionaStudentow = new Array(9);
+/*tworzenie pustej tablicy zdefiniowanej na 9 elementow*/
+var imionaChlopakow = new Array('Marcin', 'Michal', 'wojtek', 'Marek');
+/*tworzenie tablicy i nadanie wartosci*/
+
+console.log(imionaChlopakow); 
+
+imionaStudentow [2] = 'maciek'; /*dodanie na indeksie 3 tablicy maciek*/
+
+console.log(imionaStudentow);
+
+var wiek = [];
+/*tworzenie tablicy pustej*/
+var wiekStudentow = [20, 25, 30];
+/*tworzenie tablicy i wstawianie wartosci*/
+
+//*******************************************************************
+
 
 
 
