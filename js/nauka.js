@@ -273,7 +273,7 @@ function nazwaFunkcji(){
 }
 console.log(nazwaFunkcji());
 //*****************************************************************
-/* rzykladowe uzycie funkcji */
+/* przykladowe uzycie funkcji */
 var krzysiek = 3500;
 var janek = 4000;
 var jurek = 2000;
@@ -293,3 +293,42 @@ sumaKasy = policzSumaKasy(krzysiek, janek, jurek, maciek);
 
 console.log(sumaKasy);
 //****************************************************************
+/* wykozysanie tablic  metoda push*/
+var imiona = ['marcin', 'wojtek', 'michal'];
+
+imiona.push('gerald'); /*dodaje na koniec tablicy*/
+
+console.log(imiona);
+
+imiona.pop(); /*usunie ostatni element tablicy*/
+
+console.log(imiona);
+
+imiona.unshift('robert'); /*wstawia na poczatku tablicy */
+
+console.log(imiona.length); /* wyswietla ilosc elementow */
+
+
+/*funkcja forEach wstawiasz */
+imiona.forEach(function(element,i){
+    console.log('numer elemenu : '+ i +' nazywa sie: ' + element);
+})
+/*Łączenie tablic */
+
+var imiona2 = ['jola','wiola'];
+
+var wszystkieImiona = imiona.concat(imiona2);
+
+console.log(wszystkieImiona);
+
+
+
+
+
+
+
+
+
+
+
+
